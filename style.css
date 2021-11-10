@@ -56,17 +56,15 @@
     width:20vw;
   }
   .assistir-agora img{
-    width:25vw;
+    width:20vw;
   }
   .assistir-agora{
     padding-top:2vh;
-    margin-left:37%;
+    margin-left:40%;
   }
-  .assistir-agora:hover{
-    transform: scale(1.1);
-  }
+  
   footer{
     position:absolute;
     top:90%;
-    left:10%;
+    margin: 10px;
   }
