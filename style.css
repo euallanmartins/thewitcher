@@ -116,10 +116,10 @@ section{
   }
   .ditocujo{
     position: absolute;
-    left: 0;
+    left: 25%;
     top: 25%;
-    width: 90vw; 
-    height: 100vh;
+    width: 50%; 
+    height: 50%;
   }
   
   section{
@@ -130,8 +130,8 @@ section{
   }
   .wild{
     position: absolute;
-    left: 15%;
-    top: 63vh;
+    left: 20%;
+    top: 47vh;
     width: 250px;
     height: 150px;
     
@@ -139,7 +139,7 @@ section{
   .assista{
     width: 190px;
   position: absolute;
-  left: 15vw;
-  top: -10vh;
+  left: 22vw;
+  top: -25vh;
   }
 }
