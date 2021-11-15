@@ -1,70 +1,73 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    color:white;
-    text-transform:uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-size:1.3vw;
-  }
-  html{
-  height:100vh;
-  background-image:url("./img1/fundo\ the\ witcher.png");
-    background-size:cover;
-    background-repeat:no-repeat;
-    }
-  .logo-contain{
-    padding-left:12vw;
-    padding-top:2vh;
-    display:inline-block;
-  }
-  .logo-peq{
-    width:4vw;
-  }
-  h1{
-    vertical-align:top;
-    margin-top:8vh;
-    padding-left:2vw;
-    display:inline-block;
-  }
-  nav{
-    display:inline-block;
-    vertical-align:top;
-    padding-top:8vh;
-    padding-left:30vw;
-  }
-  li{
-    display:inline;
-    padding-right:1vw;
-  }
-  li:hover{
-    cursor:pointer;
-    font-weight:1000;
-  }
-  body{
-    height:100%;
-    background-image:url("./img1/o\ dito\ cujo.png");
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position:bottom;
-  }
-  .wild-hunt{
-    padding-top:30vh;
-    margin-left:40vw;
-  }
-  .wild-hunt img{
-    width:20vw;
-  }
-  .assistir-agora img{
-    width:20vw;
-  }
-  .assistir-agora{
-    padding-top:2vh;
-    margin-left:40%;
-  }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   
-  footer{
-    position:absolute;
-    top:90%;
-    margin: 10px;
-  }
+ 
+}
+html{
+  background-image: url(./img1/o\ proprio.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+h1{
+  color: antiquewhite;
+  position: relative;
+  left: 6vw;
+  top: 6vh;
+  text-transform: uppercase;
+  font-size: medium;
+ 
+}
+figure{
+  padding: 13px;
+  position: relative;
+  top: -2vh;
+}
+.logo-pequena{
+  width: 54px;
+  height: 96px;
+ 
+}
+.profile{
+  display:inline-block;
+  vertical-align:top;
+  color: aliceblue;
+  position: relative;
+  left: 75vw;
+  top: -8vh;
+
+}
+li{
+  display:inline;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding-right: 5px;
+  
+}
+li:hover{
+  color:red;
+}
+a{
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.ditocujo{
+  position: absolute;
+  left: 35%;
+  bottom: 0%;
+}
+section{
+  position: relative;
+  left: 39%;
+  top: 65vh;
+}
+.wild{
+  position: absolute;
+  left: 37%;
+  top: 55vh;
+}
