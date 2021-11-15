@@ -71,7 +71,8 @@ section{
   left: 37%;
   top: 55vh;
 }
-@media only screen and (max-width: 1600px) {
+
+  @media only screen and (width: 375px) and (height: 812px) and (-webkit-device-pixel-ratio: 2){}
   html {
   width: 100vw;
   height: 100vh;
@@ -134,3 +135,4 @@ section{
   left: 20vw;
   top: -10vh;
   }
+}
