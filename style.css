@@ -113,14 +113,15 @@ section{
     font-size: large
     font-weight: bolder;
     width: 20%;
+  
     
   }
   .ditocujo{
     position: relative;
-    left: -1%;
-    top: 20vh;
-    width: 100vw; 
-    height: 81vh;
+    left: 5%;
+    top: 30vh;
+    width: 90vw; 
+    height: 78vh;
   }
   
   section{
@@ -131,8 +132,8 @@ section{
   }
   .wild{
     position: absolute;
-    left: 20%;
-    top: 57vh;
+    left: 22%;
+    top: 60vh;
     width: 250px;
     height: 150px;
     
@@ -140,8 +141,8 @@ section{
   .assista{
     width: 190px;
   position: absolute;
-  left: 22vw;
-  top: -8vh;
+  left: 23vw;
+  top: -10vh;
   }
 body{
   overflow: hidden;
