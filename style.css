@@ -76,6 +76,7 @@ section{
     width: 140vw;
   height: 30vh;
   background-image: url(./img1/iphone.jpg);
+  overflow: hidden;
   }
   figure{
     padding: 0px;
