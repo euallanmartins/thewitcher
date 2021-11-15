@@ -116,9 +116,9 @@ section{
     
   }
   .ditocujo{
-    position: absolute;
+    position: relative;
     left: -1%;
-    top: 25%;
+    top: 20vh;
     width: 100vw; 
     height: 81vh;
   }
@@ -141,7 +141,7 @@ section{
     width: 190px;
   position: absolute;
   left: 22vw;
-  top: -10vh;
+  top: -8vh;
   }
 body{
   overflow: hidden;
