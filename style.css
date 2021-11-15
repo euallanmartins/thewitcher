@@ -75,24 +75,24 @@ section{
 @media only screen and (max-width: 1600px) {
   
   html {
-  width:50vw;
+  width: 100vw;
   height: 100vh;
   background-image: url(./img1/iphone\ 2.jpg);
-  overflow: hidden;
+ 
   }
   figure{
     padding: 0px;
-    position: relative;
+    position: absolute;
     top: 3vh;
-    left: 12vw;
+    left: 17vw;
     
   }
   
   h1{
     color: antiquewhite;
-    position: relative;
-    left: 29vw;
-    top: 7vh;
+    position: absolute;
+    left: 35vw;
+    top: 5vh;
     text-transform: uppercase;
     font-size:small;
     
@@ -107,19 +107,20 @@ section{
     display:inline-block;
     vertical-align:top;
     color: aliceblue;
-    position: relative;
-    left: 25vw;
-    top: 5vh;
-    font-size: 48%;
+    position: absolute;
+    left: 5vw;
+    top: 15vh;
+    font-size: large
     font-weight: bolder;
+    width: 20%;
     
   }
   .ditocujo{
     position: absolute;
-    left: 25%;
+    left: -1%;
     top: 25%;
-    width: 50%; 
-    height: 50%;
+    width: 100vw; 
+    height: 81vh;
   }
   
   section{
@@ -131,7 +132,7 @@ section{
   .wild{
     position: absolute;
     left: 20%;
-    top: 47vh;
+    top: 57vh;
     width: 250px;
     height: 150px;
     
@@ -140,6 +141,8 @@ section{
     width: 190px;
   position: absolute;
   left: 22vw;
-  top: -25vh;
+  top: -10vh;
   }
+body{
+  overflow: hidden;
 }
