@@ -72,10 +72,12 @@ section{
   top: 55vh;
 }
 
-  @media only screen and (width: 375px) and (height: 812px) and (-webkit-device-pixel-ratio: 2){}
+@media only screen and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* CSS */
+
   html {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-image: url(./img1/iphone\ 2.jpg);
   overflow: hidden;
   }
@@ -84,7 +86,9 @@ section{
     position: relative;
     top: 3vh;
     left: 12vw;
+    
   }
+  
   h1{
     color: antiquewhite;
     position: relative;
@@ -92,12 +96,13 @@ section{
     top: 7vh;
     text-transform: uppercase;
     font-size:small;
-   
+    
+
   }
   .logo-pequena{
     width: 45px;
     height: 50px;
-   
+    
   }
   .profile{
     display:inline-block;
@@ -107,15 +112,17 @@ section{
     left: 10vw;
     top: 5vh;
     font-size: 77%;
-  
+    
   }
   .ditocujo{
     position: absolute;
     left: -10%;
     top: 25%;
     width: 450px;
+ 
     height: 610px;
   }
+  
   section{
     position: absolute;
     left: 5%;
@@ -128,6 +135,7 @@ section{
     top: 59vh;
     width: 250px;
     height: 150px;
+    
   }
   .assista{
     width: 190px;
