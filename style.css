@@ -71,3 +71,55 @@ section{
   left: 37%;
   top: 55vh;
 }
+@media only screen and (max-width: 1600px) {
+  html {
+    width: 140vw;
+  height: 30vh;
+  background-image: url(./img1/iphone.jpg);
+  }
+  figure{
+    padding: 0px;
+    position: relative;
+    top: 3vh;
+    left: 2vw;
+  }
+  h1{
+    color: antiquewhite;
+    position: relative;
+    left: 19vw;
+    top: 7vh;
+    text-transform: uppercase;
+    font-size:small;
+   
+  }
+  .logo-pequena{
+    width: 45px;
+    height: 50px;
+   
+  }
+  .profile{
+    display:inline-block;
+    vertical-align:top;
+    color: aliceblue;
+    position: relative;
+    left: 15vw;
+    top: 5vh;
+  
+  }
+  .ditocujo{
+    position: absolute;
+    left: -10%;
+    top: 35%;
+    width: 600px;
+    height: 800px;
+  }
+  section{
+    position: relative;
+    left: 17%;
+    top: 100vh;
+  }
+  .wild{
+    position: absolute;
+    left: 13%;
+    top: 80vh;
+  }
