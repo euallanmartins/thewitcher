@@ -117,7 +117,7 @@ section{
   .ditocujo{
     position: absolute;
     left: 5%;
-    top: 25vh;
+    top: 28vh;
     width: 90vw; 
     height: 60vh;
   }
@@ -130,8 +130,8 @@ section{
   }
   .wild{
     position: absolute;
-    left: 22%;
-    top: 49vh;
+    left: 21%;
+    top: 50vh;
     width: 250px;
     height: 150px;
     
