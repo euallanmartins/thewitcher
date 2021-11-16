@@ -106,20 +106,22 @@ section{
   .profile{
     display:inline-block;
     vertical-align:top;
-    color: aliceblue;
+    color: antiquewhite;
     position: absolute;
     left: 5vw;
-    top: 12vh;
-    font-size: large
-    font-weight: bolder;
-    width: 20%;
+    top: 17vh;
+    font-size: 15px;
+    font-weight: bold;
+    
+   
+    
   
     
   }
   .ditocujo{
-    position: relative;
+    position: absolute;
     left: 5%;
-    top: 30vh;
+    top: 40vh;
     width: 90vw; 
     height: 88vh;
   }
@@ -133,7 +135,7 @@ section{
   .wild{
     position: absolute;
     left: 22%;
-    top: 60vh;
+    top: 72vh;
     width: 250px;
     height: 150px;
     
@@ -142,7 +144,7 @@ section{
     width: 190px;
   position: absolute;
   left: 23vw;
-  top: -10vh;
+  top: 1vh;
   }
 body{
   overflow: hidden;
